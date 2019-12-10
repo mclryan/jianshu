@@ -1,0 +1,140 @@
+#message{
+  width: 100%;
+  background-color: #f3f3f3;
+  .header{
+    background-color: #fff;
+    padding: 0 50px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .title{
+      font-size: 46px;
+      color: #303030;
+    }
+    .icon{
+      font-size: 46px;
+    }
+  }
+  .newmess{
+    background-color: #fff;
+    width: 100%;
+    height: 312px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    .messitem{
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      align-items: center;
+      span{
+        font-size: 56px;
+        color: #c76d65;
+      }
+      p{
+        font-size: 40px;
+        color: #636363;
+        margin-top: 45px;
+      }
+    }
+  }
+  .comment{
+    width: 100%;
+    background-color: #fff;
+    .hgroup{
+      height: 155px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 45px;
+      h1{
+        font-size: 44px;
+        color: #2c2c2c;
+      }
+      p{
+        font-size: 44px;
+        color: #c97d66;
+      }
+    }
+    .mycomment{
+      .app-scroll{
+        width: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 635px;
+        left: 0;
+        bottom: 0;
+      }
+      .noshow{
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        span{
+          font-size: 120px;
+          color: #c76d65;
+        }
+        p{
+          font-size: 42px;
+          margin-top: 40px;
+          color: #888;
+        }
+      }
+      .item{
+        display: flex;
+        height: 170px;
+        background-color: #fff;
+        .avatar{
+          width: 182px;
+          height: 170px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img{
+            width: 103px;
+            height: 103px;
+            border-radius: 50%;
+            border: 2px solid #dadada;
+          }
+        }
+        .con{
+          flex: 1;
+          .titlegroup{
+            display: flex;
+            justify-content: space-between;
+            line-height: 90px;
+            margin-right: 58px;
+            .title{
+              display: flex;
+              h4{
+                font-size: 42px;
+                color: #0d0d0d;
+                margin-right: 24px;
+              }
+              span{
+                font-size: 44px;
+                color: #e47b82;
+              }
+            }
+            .time{
+              font-size: 34px;
+              color: #8f8f8f;
+            }
+          }
+          .content{
+            width: 800px;
+            font-size: 32px;
+            color: #8f8f8f;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+      }
+    }
+  }
+}

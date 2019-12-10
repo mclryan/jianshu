@@ -1,0 +1,165 @@
+#mine{
+  width: 100%;
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 137px;
+    .scan{
+      height: 137px;
+      padding: 0 50px;
+      display: flex;
+      align-items: center;
+      span{
+        font-size: 48px;
+        color: #999999;
+      }
+    }
+    .write{
+      height: 137px;
+      padding: 0 50px;
+      display: flex;
+      align-items: center;
+      p{
+        font-size: 38px;
+        color: #e96f5a;
+      }
+    }
+  }
+  .tologin-wrap{
+    width: 100%;
+    height: 295px;
+    padding: 0 45px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    .avatar{
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      overflow: hidden;
+      position: relative;
+      background-color: #d0d0d0;
+      img{
+        width: 180px;
+        height: 180px;
+      }
+      .ball:nth-last-of-type(1){
+        width: 68px;
+        height: 68px;
+        background-color: #e7e7e7;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .ball:nth-last-of-type(2){
+        width: 180px;
+        height: 180px;
+        background-color: #e7e7e7;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        top: 140px;
+        transform: translateX(-50%);
+      }
+    }
+    .tologin{
+      margin-left: 26px;
+      h4{
+        font-size: 62px;
+        color: #2f2f2f;
+      }
+      p{
+        font-size: 36px;
+        color: #999999;
+        margin-top: 35px;
+      }
+    }
+    .user{
+      margin-left: 27px;
+      h4{
+        color: #2f2f2f;
+        font-size: 50px;
+        font-weight: bold;
+      }
+      .fan{
+        display: flex;
+        margin-top: 40px;
+        span{
+          font-size: 35px;
+          color: #888888;
+          margin-right: 70px;
+          i{
+            margin-left: 16px;
+            color: #2f2f2f;
+          }
+        }
+      }
+    }
+  }
+  .post{
+    display: flex;
+    align-items: center;
+    width: 991px;
+    height: 301px;
+    margin: 0 auto;
+    box-shadow: 0 0 24px 8px #f7f7f7;
+    border-radius: 10px;
+    .item{
+      flex: 1;
+      a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .iconfont{
+          font-size: 60px;
+          color: #2f2f2f;
+        }
+        p{
+          margin-top: 38px;
+          font-size: 40px;
+          color: #2f2f2f;
+        }
+      }
+    }
+  }
+  .mine-list{
+    width: 100%;
+    padding-left: 54px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    .item{
+      height: 135px;
+      a{
+        display: flex;
+        height: 135px;
+        justify-content: space-between;
+        align-items: center;
+        p{
+          font-size: 41px;
+          color: #2f2f2f;
+        }
+        span{
+          font-size: 36px;
+          color: #898989;
+          margin-right: 55px;
+        }
+      }
+
+    }
+  }
+  .logout{
+    width: 800px;
+    height: 120px;
+    margin: 60px auto 0;
+    text-align: center;
+    line-height: 120px;
+    background-color: #f58672;
+    color: #fff;
+    font-size: 42px;
+    border-radius: 8px;
+  }
+}
